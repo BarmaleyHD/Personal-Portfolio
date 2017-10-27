@@ -5,6 +5,47 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta charset="utf-8"/>
         <title>Travel Experts</title>
+        <style>
+            .article {
+                float: left;
+                position: relative;
+                width: 50%; 
+            }
+
+            .image {
+              opacity: 1;
+              display: block;
+              width: 100%;
+              height: 100%;
+              transition: .5s ease;
+              backface-visibility: hidden;
+            }
+
+            .middle {            
+              transition: .5s ease;
+              opacity: 0;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%)
+            
+            }
+
+            .article:hover .image {
+              opacity: 0.3;
+            }
+
+            .article:hover .middle {
+              opacity: 1;
+            }
+
+            .insideText {
+                border: 5px solid black;
+                color: black;
+                font-size: 20px;
+                padding: 16px 32px;
+        </style>
 	</head>
 	<body>
         
@@ -25,14 +66,20 @@
         
         <div class="container">	
             <header>
-                <h2 id="mainHead">Travel Experts</h2>
+                <img src="media/logo/logo.PNG" alt="Logo" class="logo">
             </header>
-            <section id="content">	
-                <p>This space where all main information will be show</p>
+            
+<!-- News column layout -->
+            
+            <section id="content">
+               <h1>Welcome to Travel Experts</h1>
             </section>
-            <footer>
+
+<!-- main footer -->
+
+            <div class="main-footer">
                 <p id="copyright">&copy; Copyright DmitryDesign 2017</p>
-            </footer>	
+            </div>	
         </div>
 			
 	</body>

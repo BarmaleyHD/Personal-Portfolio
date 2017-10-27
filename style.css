@@ -1,22 +1,23 @@
 /*....CSS Reset....*/
-html, ul, ol, li, form, fieldset, legend {
+html, div, h2, p, figure, ul, ol, li, form, fieldset, legend {
 	margin: 0;
 	padding: 0; }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    background-color: orange;
+    background-color: darkgray;
 }
 
- 
+/* --- Navigation --- */
+
  ul {
 	list-style-type:none; 
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
 	overflow: hidden;							
-	background-color: #f1f1f1;	
+	background-color: white;	
 }
 
 li {
@@ -30,7 +31,7 @@ li a {
 	color: #000;
 	padding: 8px 16px;
 	text-decoration: none;
-	background-color: #f1f1f1;
+	background-color: white;
 }
  
  li a:hover:not(.active) {   
@@ -43,16 +44,44 @@ li a {
 	 color: white;
  }
 
-#mainHead {
-    font-size: 50px;
-    color: aqua;
-    font-family: monospace;
-}
+/* --- Heading --- */
 
 header {
-    margin: 0;
     padding: 1em;
-    height: 150px;
-    background-color: aquamarine;
-    background-image:url(media/photo/img_background.jpeg);
+    height: 100px;    
+    background-color: white;
 }
+
+.logo {
+    position: absolute;
+    margin: 0;
+}
+
+.logo:hover {
+    transform: scale(1.2)
+}
+
+/* --- Main part of the page --- */
+
+#content {
+    background-color: darkgrey;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 40px;
+    height: 100%;
+}
+
+
+/* --- Main footer --- */
+
+.main-footer {
+    padding: 1em;
+    background-color: darkgrey;
+    position: relative;
+    margin-top: -40px;
+    height: 40px;
+    clear: both;
+    text-align: center;
+}
+

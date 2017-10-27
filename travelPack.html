@@ -4,36 +4,115 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta charset="utf-8"/>
-		<title>Travel Experts</title>
+        <title>Travel Experts</title>
+        <style>
+            .article {
+                float: left;
+                position: relative;
+                width: 50%; 
+            }
+
+            .image {
+              opacity: 1;
+              display: block;
+              width: 100%;
+              height: 100%;
+              transition: .5s ease;
+              backface-visibility: hidden;
+            }
+
+            .middle {            
+              transition: .5s ease;
+              opacity: 0;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%)
+            
+            }
+
+            .article:hover .image {
+              opacity: 0.3;
+            }
+
+            .article:hover .middle {
+              opacity: 1;
+            }
+
+            .insideText {
+                border: 5px solid black;
+                color: black;
+                font-size: 20px;
+                padding: 16px 32px;
+        </style>
 	</head>
 	<body>
-<!------------------------------------------------------------------------------------- Main Container STARTS -------->
-	<div class="container">	
-		<header>
-		</header>
-<!--------------------------------------------------------------------------------------------------- Main menu! ---->			
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="gallery.html">Gallery</a></li>
-				<li><a href="travelPack.html">Travel Packages</a></li>
-				<li><a href="login.html">Log In</a></li>
-				<li><a href="contact.html">Contact Us</a></li>	
-				<li style="float:right"><a class="active" href="register.html">Register</a></li>
-			</ul>			
-		
-		<section id="content">
-		
-				
-			<h2>Welcome to our main page</h2>	
+        
+<!-- Navigation Bar on the Top -->
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="travelPack.html">Travel Packages</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="contact.html">Contact Us</a></li>	
+                <li style="float:right"><a class="active" href="register.html">Register</a></li>
+            </ul>		
+        </nav>
+        
+<!-- Main Container -->
+        
+        <div class="container">	
+            <header>
+                <img src="media/logo/logo.PNG" alt="Logo" class="logo">
+            </header>
+            
+<!-- News column layout -->
+            
+            <section id="content">
+                <a href="tours/hike.html">
+                   <div class="article">
+                        <img src="media/photo/photo1.png" alt="photo1" class="image">
+                        <div class="middle">
+                            <div class="insideText">Hikes in Brazil</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="tours/sufr.html">
+                    <div class="article">
+                        <img src="media/photo/photo2.png" alt="photo2" class="image">
+                        <div class="middle">
+                            <div class="insideText">Surfing on Maui</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="tours/snow.html">
+                    <div class="article">
+                        <img src="media/photo/photo3.png" alt="photo3" class="image">
+                        <div class="middle">
+                            <div class="insideText">Snowboarding in Banff</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="tours/scuba.html">
+                    <div class="article">
+                        <img src="media/photo/photo4.jpg" alt="photo3" class="image">
+                        <div class="middle">
+                            <div class="insideText">Scuba Diving in Mexico</div>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+<!-- main footer -->
+
+            <div class="main-footer">
+                <p id="copyright">&copy; Copyright DmitryDesign 2017</p>
+            </div>	
+        </div>
 			
-		</section>
-        <footer>
-			<p id="copyright">&copy; Copyright DmitryDesign 2017</p>
-		</footer>
-	</div>
-<!-----------------------------------------------------------------------------------------Main containers ENDS -------->
-		
-		
 	</body>
 	
 </html>

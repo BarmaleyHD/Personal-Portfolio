@@ -1,102 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        form {
-            align-content: center;
-            width: 300px;
-            height: 300px;
-            border: 1px black;
-        }
-        input[type=text], input[type=password] {
-            width: 60%;
-            padding: 12px 20px;
-            margin: 0;
-            display: block;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-        }
-
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 14px 20px;
-            margin: 18px 0;
-            border: none;
-            cursor: pointer;
-            width: 60%
-        }
-
-        button:hover {
-            opacity: 0.8;
-        }
-
-        .imgcontainer {
-            text-align: center;
-            margin: 24px 0 12px 0;
-        }
-
-        img.avatar {
-            width: 40%;
-            border-radius: 50%;
-        }
-
-        .logContainer {
-            padding: 16px;
-        }
-        span.psw {
-            float:left;
-            padding-top: 16px;
-            width: 20%;
-        }
-    </style>
 	
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta charset="utf-8"/>
-		<title>Travel Experts</title>
+        <title>Travel Experts</title>
+        <style>
+            .logContainer {
+                display: inline-block;
+                background-color:lightseagreen;
+                border: 5px solid black;
+                margin-bottom: 50px;
+                width: 25%;
+                padding: 1em;
+            }
+            .avatar {
+                height: 150px;
+                height: 150px;
+            }
+
+            .container {
+                height: 100%;
+            }
+
+            #mainForm {
+                text-align: center;   
+            }
+
+        </style>
 	</head>
 	<body>
-<!------------------------------------------------------------------------------------- Main Container STARTS -------->
-	<div class="container">	
-		<header>
-		</header>
-<!--------------------------------------------------------------------------------------------------- Main menu! ---->			
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="gallery.html">Gallery</a></li>
-				<li><a href="travelPack.html">Travel Packages</a></li>
-				<li><a href="login.html">Log In</a></li>
-				<li><a href="contact.html">Contact Us</a></li>	
-				<li style="float:right"><a class="active" href="register.html">Register</a></li>
-			</ul>				
-		<section id="content">	
-                <h2>Login</h2>                
-                <form action="data/bouncer.php">
+        
+<!-- Navigation Bar on the Top -->
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="travelPack.html">Travel Packages</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="contact.html">Contact Us</a></li>	
+                <li style="float:right"><a class="active" href="register.html">Register</a></li>
+            </ul>		
+        </nav>
+        
+<!-- Main Container -->
+        
+        <div class="container">	
+            <header>
+                <img src="media/logo/logo.PNG" alt="Logo" class="logo">
+            </header>
+            
+<!-- News column layout -->
+            
+            <section id="content">
+                <form id="mainForm" action="data/bouncer.php">
                     <div class="imgcontainer">
                         <img src="media/logo/avatar.png" alt="Avatar" class="avatar">
                     </div>                    
                     <div class="logContainer">
-                        <label><b>Username</b></label>
-                        <input type="text" placeholder="Enter username" name="uname" required="required">
+                        <label><b>Username</b></label><br />
+                        <input type="text" placeholder="Enter username" name="uname" required="required"><br />
                         
-                        <label><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="psw" required="required">
+                        <label><b>Password</b></label><br />
+                        <input type="password" placeholder="Enter Password" name="psw" required="required"><br />
                         
-                        <button type="submit">Login</button>
-                        <input type="checkbox" checked="checked">Remember me
-                    </div>
-                    <div class="logContainer" style="background-color: #f1f1f1">
-                        <span class="register">Dont have acount?<a href="register.html">Register</a></span>
+                        <button type="submit">Login</button><br />
+                        <input type="checkbox" checked="checked">Remember me<br />
+                        <span class="register">Dont have acount? <a href="register.html">Register</a></span>
                     </div>
                 </form>                
 		</section>
-        <footer>
-			<p id="copyright">&copy; Copyright DmitryDesign 2017</p>
-		</footer>
-	</div>
-<!-----------------------------------------------------------------------------------------Main containers ENDS -------->
-		
-		
+
+<!-- main footer -->
+
+            <div class="main-footer">
+                <p id="copyright">&copy; Copyright DmitryDesign 2017</p>
+            </div>	
+        </div>
+			
 	</body>
 	
 </html>
