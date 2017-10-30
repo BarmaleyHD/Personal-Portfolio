@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Da6 HomeWork JavaScript</title>
+        <style>
+
+        </style>
+        <script>
+            var fieldInfo = new Array();
+            fieldInfo[0] = "First name of the customer";
+            fieldInfo[1] = "Last name of the customer";
+            fieldInfo[2] = "City of the customer";
+            fieldInfo[3] = "Province name of the customer";
+            fieldInfo[4] = "Postal code or zip code";
+            
+            function showinfo(field, index) {
+                field.style.backgroundColor = "yellow";           
+                document.getElementById("info").innerHTML = fieldInfo[index];
+                document.getElementById("newDiv").style.border = ("5px solid black");
+                document.getElementById("newDiv").style.float = ("left");
+            }
+            
+            function clear(field) {
+                field.style.backgroundColor = "white";           
+                document.getElementById("info").innerHTML = "";
+            }
+        </script>
+    </head>
+    <body>
+        <form method="post" action="bouncer.php">
+            <label for="fname">First Name: </label>
+                <input type="text" name="fname" id="fname" onfocus="showinfo(this, 0)" onblur="clear(this) "/><br />
+            <label for="fname">Last Name: </label>
+                <input type="text" name="lname" id="lname" onfocus="showinfo(this, 1)" /><br />
+            <label for="fname">City: </label>
+                <input type="text" name="lname" id="lname" onfocus="showinfo(this, 2)" /><br />
+            <div id="newDiv">
+            <p id="info"></p>
+            </div>
+        </form>
+    </body>
+</html>
