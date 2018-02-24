@@ -1,0 +1,105 @@
+=============Error Logging ===========
+===========Start============= 1/23/2018 9:15:32 AM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Packages_Products_Supplie_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Packages_Products_Suppliers", column 'PackageId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.PackagesDB.DeletePackage(Int32 id) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\PackagesDB.cs:line 253
+   at TravelExperts.frmMain.btnPkgDelete_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\frmMain.cs:line 443
+===========End============= 1/23/2018 9:15:32 AM
+=============Error Logging ===========
+===========Start============= 1/23/2018 9:15:37 AM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Packages_Products_Supplie_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Packages_Products_Suppliers", column 'PackageId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.PackagesDB.DeletePackage(Int32 id) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\PackagesDB.cs:line 253
+   at TravelExperts.frmMain.btnPkgDelete_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\frmMain.cs:line 443
+===========End============= 1/23/2018 9:15:37 AM
+=============Error Logging ===========
+===========Start============= 1/23/2018 9:42:05 AM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Packages_Products_Supplie_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Packages_Products_Suppliers", column 'PackageId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.PackagesDB.DeletePackage(Int32 id) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\PackagesDB.cs:line 251
+   at TravelExperts.frmMain.btnPkgDelete_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\frmMain.cs:line 443
+===========End============= 1/23/2018 9:42:05 AM
+=============Error Logging ===========
+===========Start============= 1/23/2018 9:43:18 AM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Packages_Products_Supplie_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Packages_Products_Suppliers", column 'PackageId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.PackagesDB.DeletePackage(Int32 id) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\PackagesDB.cs:line 251
+   at TravelExperts.frmMain.btnPkgDelete_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\frmMain.cs:line 443
+===========End============= 1/23/2018 9:43:18 AM
+=============Error Logging ===========
+===========Start============= 1/23/2018 9:44:14 AM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Packages_Products_Supplie_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Packages_Products_Suppliers", column 'PackageId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.PackagesDB.DeletePackage(Int32 id) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\PackagesDB.cs:line 251
+   at TravelExperts.frmMain.btnPkgDelete_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\frmMain.cs:line 443
+===========End============= 1/23/2018 9:44:14 AM
+=============Error Logging ===========
+===========Start============= 1/23/2018 10:46:17 AM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Packages_Products_Supplie_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Packages_Products_Suppliers", column 'PackageId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.PackagesDB.DeletePackage(Int32 id) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\PackagesDB.cs:line 251
+   at TravelExperts.frmMain.btnPkgDelete_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\frmMain.cs:line 457
+===========End============= 1/23/2018 10:46:17 AM
+=============Error Logging ===========
+===========Start============= 1/23/2018 11:17:30 AM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Packages_Products_Supplie_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Packages_Products_Suppliers", column 'PackageId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.PackagesDB.DeletePackage(Int32 id) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\PackagesDB.cs:line 251
+   at TravelExperts.frmMain.btnPkgDelete_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\frmMain.cs:line 454
+===========End============= 1/23/2018 11:17:30 AM
+=============Error Logging ===========
+===========Start============= 1/23/2018 11:17:34 AM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Packages_Products_Supplie_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Packages_Products_Suppliers", column 'PackageId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.PackagesDB.DeletePackage(Int32 id) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\PackagesDB.cs:line 251
+   at TravelExperts.frmMain.btnPkgDelete_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\frmMain.cs:line 454
+===========End============= 1/23/2018 11:17:34 AM
+=============Error Logging ===========
+===========Start============= 1/23/2018 1:16:52 PM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Packages_Products_Supplie_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Packages_Products_Suppliers", column 'PackageId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.PackagesDB.DeletePackage(Int32 id) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\PackagesDB.cs:line 251
+   at TravelExperts.frmMain.btnPkgDelete_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\frmMain.cs:line 452
+===========End============= 1/23/2018 1:16:52 PM
+=============Error Logging ===========
+===========Start============= 1/23/2018 1:18:24 PM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Products_Suppliers_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Products_Suppliers", column 'ProductId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.ProductsDB.DeleteProduct(Products prod) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\ProductsDB.cs:line 152
+   at TravelExperts.UserControlsPages.ProductsPage.btnDeleteProducts_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\UserControlsPages\ProductsPage.cs:line 95
+===========End============= 1/23/2018 1:18:24 PM
+=============Error Logging ===========
+===========Start============= 1/23/2018 3:54:29 PM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Products_Suppliers_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Products_Suppliers", column 'ProductId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.ProductsDB.DeleteProduct(Products prod) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\ProductsDB.cs:line 152
+   at TravelExperts.UserControlsPages.ProductsPage.btnDeleteProducts_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\UserControlsPages\ProductsPage.cs:line 95
+===========End============= 1/23/2018 3:54:29 PM
+=============Error Logging ===========
+===========Start============= 1/24/2018 8:51:28 AM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Packages_Products_Supplie_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Packages_Products_Suppliers", column 'PackageId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.PackagesDB.DeletePackage(Int32 id) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\PackagesDB.cs:line 251
+   at TravelExperts.frmMain.btnPkgDelete_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\frmMain.cs:line 452
+===========End============= 1/24/2018 8:51:28 AM
+=============Error Logging ===========
+===========Start============= 1/24/2018 8:52:13 AM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Packages_Products_Supplie_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Packages_Products_Suppliers", column 'PackageId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.PackagesDB.DeletePackage(Int32 id) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\PackagesDB.cs:line 251
+   at TravelExperts.frmMain.btnPkgDelete_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\frmMain.cs:line 452
+===========End============= 1/24/2018 8:52:13 AM
+=============Error Logging ===========
+===========Start============= 1/24/2018 9:48:08 AM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Products_Suppliers_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Products_Suppliers", column 'ProductId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.ProductsDB.DeleteProduct(Products prod) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\ProductsDB.cs:line 152
+   at TravelExperts.UserControlsPages.ProductsPage.btnDeleteProducts_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\UserControlsPages\ProductsPage.cs:line 94
+===========End============= 1/24/2018 9:48:08 AM
+=============Error Logging ===========
+===========Start============= 1/24/2018 12:25:10 PM
+Error Message: The DELETE statement conflicted with the REFERENCE constraint "Products_Suppliers_FK00". The conflict occurred in database "C:\USERS\719454\DOCUMENTS\GROUPPROJECT2_TEAMCOOKIES\DESKTOPAPP\TRAVELEXPERTS\TRAVELEXPERTS\BIN\DEBUG\TRAVELEXPERTS.MDF", table "dbo.Products_Suppliers", column 'ProductId'.
+The statement has been terminated.
+Stack Trace:    at TravelExperts.ProductsDB.DeleteProduct(Products prod) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\ClassesDB\ProductsDB.cs:line 152
+   at TravelExperts.UserControlsPages.ProductsPage.btnDeleteProducts_Click(Object sender, EventArgs e) in C:\Users\719454\Documents\groupproject2_teamcookies\DesktopApp\TravelExperts\TravelExperts\UserControlsPages\ProductsPage.cs:line 94
+===========End============= 1/24/2018 12:25:10 PM

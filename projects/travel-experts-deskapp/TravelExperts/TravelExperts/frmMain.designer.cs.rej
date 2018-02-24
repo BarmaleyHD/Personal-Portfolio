@@ -1,0 +1,9 @@
+diff a/DesktopApp/TravelExperts/TravelExperts/frmMain.designer.cs b/DesktopApp/TravelExperts/TravelExperts/frmMain.designer.cs	(rejected hunks)
+@@ -107,7 +107,6 @@
+             this.label22 = new System.Windows.Forms.Label();
+             this.btnButtonTextColor = new System.Windows.Forms.Button();
+             this.btnDefault = new System.Windows.Forms.Button();
+-            this.tblPSCont = new System.Windows.Forms.TableLayoutPanel();
+             this.tlpNav.SuspendLayout();
+             this.tabMain.SuspendLayout();
+             this.tabPackages.SuspendLayout();
