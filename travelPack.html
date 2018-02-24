@@ -1,53 +1,11 @@
 <!DOCTYPE html>
 <html>
 	
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
+	<head>		
 		<meta charset="utf-8"/>
         <title>Travel Experts</title>
-        <style>
-            .article {
-                float: left;
-                position: relative;
-                width: 50%; 
-                overflow: hidden;
-            }
-
-            .image {
-              opacity: 1;
-              display: block;
-              width: 100%;
-              height: 100%;
-              transition: .5s ease;
-              backface-visibility: hidden;
-            }
-
-            .middle {            
-              transition: .5s ease;
-              opacity: 0;
-              position: absolute;
-              top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%);
-              -ms-transform: translate(-50%, -50%)
-            
-            }
-
-            .article:hover .image {
-                opacity: 0.3;
-                transform: scale(1.2);
-            }
-
-            .article:hover .middle {
-              opacity: 1;
-            }
-
-            .insideText {
-                border: 5px solid black;
-                color: black;
-                padding: 16px 32px;
-                text-align: right;
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
 	</head>
 	<body>
         
@@ -60,7 +18,7 @@
                 <li><a href="travelPack.html">Travel Packages</a></li>
                 <li><a href="login.html">Log In</a></li>
                 <li><a href="contact.html">Contact Us</a></li>	
-                <li style="float:right"><a class="active" href="register.html">Register</a></li>
+                <li class="registerBut"><a class="active" href="register.html">Register</a></li>
             </ul>		
         </nav>
         
