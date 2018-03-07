@@ -300,3 +300,7 @@ a:active,a:focus,a:hover{
 .text-secondary{
     color:#ecb807!important;
 }
+
+.main-button-padding {
+    padding-top: 15px;
+}
