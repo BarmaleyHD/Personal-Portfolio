@@ -307,8 +307,8 @@ a:active,a:focus,a:hover{
 
 .circle-avatar{
      /* make a square container */
-     width: 150px;
-     height: 150px;
+     width: 250px;
+     height: 250px;
  
      /* fill the container, preserving aspect ratio, and cropping to fit */
      background-size: cover;
@@ -319,7 +319,7 @@ a:active,a:focus,a:hover{
      /* round the edges to a circle with border radius 1/2 container size */
      border-radius: 50%;
 
-     padding-bottom: 50px;
+    
     }
 
     .menuContainer {
